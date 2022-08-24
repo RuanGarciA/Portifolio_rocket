@@ -1,0 +1,356 @@
+
+
+
+/*1° caixa*/
+.img-perfil{
+    margin-top: 10%;
+  
+    Width: 158px;
+    Height: 158px;
+    Top: 72px;
+    Left: 150px;
+    border-radius: 100%;
+          
+    box-sizing: border-box;
+    border: 2px solid #00FF00;
+  
+  }
+  
+  .caixaInf h1{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+    padding: 10px;
+  }
+  
+  .ocupacao{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+  
+  }
+  
+  
+  
+  
+  /*2° caixa*/
+  
+  .contatos{/*lista de contatos*/
+   
+    min-height: 292px;
+  
+    display: flex;
+  
+    align-items: flex-start;
+    list-style: none;
+    flex-direction: column;
+    gap: 1.3rem;
+  
+    justify-content: center;
+  }
+  
+  .icone {
+      
+    border-left: 20px;
+  
+    width: 24px;
+    height: 24px;
+    color: #837E9F;
+  
+  }
+  
+  .caixaInf .contatos li a{
+  padding-left: 35px;
+  text-decoration: none;
+  color: var(--text-color);
+  word-spacing: 5px;
+  
+  }
+  .caixaInf .contatos li a:hover{
+    padding-left: 35px;
+    text-decoration: none;
+    color: #CB92B1;
+    word-spacing: 5px;
+  }
+    
+  
+  
+  
+    /*3° caixa*/
+  .tecnologias{
+   
+   
+    padding: 3px;
+    margin: 40px 24px;
+   
+    flex-wrap: wrap;
+    align-items: start;
+    list-style: none;
+    
+  
+    display: flex;
+    gap: 1.5rem;
+    
+    justify-content: center;
+  
+  
+  }
+  
+  .tecnologias a{
+    text-decoration: none;
+  
+  }
+  
+  
+   .tecnologias button {
+    text-decoration: none;
+    font-style: normal;
+    width: 120px;
+    height: 35px;
+    background: #CB92B1;
+    border-radius: 10px;
+    color: var(--text-color);
+  
+  }
+  
+  .tecnologias button:hover {
+    text-decoration: none;
+    font-style: normal;
+    width: 120px;
+    height: 35px;
+    background: var(--text-color);
+    border-radius: 10px;
+    color: #6d0da5;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  
+   /*4° caixa*/
+  .experiencias, .educacao{
+    padding-bottom: 15px;
+    margin: 3px 30px;
+   
+    flex-wrap: wrap;
+  
+    display: flex;
+    gap: 1.2rem;
+    text-align: start;
+  
+    flex-direction: column;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*
+  #profile {
+  
+      
+      width: 348px;
+      height: 292px;
+      left: 40px;
+      top: 40px;
+  
+      text-align: center;
+      background-color:  var(--bg-cards);
+      color: var(--text-color);
+      border-radius: 20px;
+    
+  
+      background: #302F3D;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+  
+    }
+  
+    #img_perfil{
+          
+          
+  
+        }
+  
+  
+            h1 {
+        
+          
+        
+         text-align: center;
+  
+          /*font-family: 'Merriweather Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 23px;
+          line-height: 29px;
+  
+          color: var(--text-color);
+  
+  
+        }
+  
+      #ocupacao {
+      
+        text-align: center;
+        white-space: nowrap;
+  
+  
+        width: 128px;
+        height: 17px;
+        left: 115px;
+        
+  
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+  
+      /* identical to box height 
+  
+       color: #837E9F;
+        }
+  
+    #links {
+      
+      background-color:  var(--bg-cards);
+      color: var(--text-color);
+      border-radius: 20px;
+  
+  
+    
+      width: 348px;
+      height: 348px;
+      left: 40px;
+      top: 362px;
+     
+  
+      background: #302F3D;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+  
+  
+  
+  
+    }
+  
+    .link {
+      /* Brasil 
+       font-family: 'Merriweather Sans';*
+      font-style: normal;
+      
+      
+     
+  
+      width: 45px;
+      height: 16px;
+      left: 50px;
+      top: 50px;
+     
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 16px;
+      
+      color: #837E9F;
+  
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    #tecnologias {
+      
+      background-color:  #302F3D;
+      color: #CB92B1;
+      border-radius: 20px;
+     
+  
+  
+     
+      width: 348px;
+      height: 208px;
+      left: 40px;
+      top: 740px;
+    }
+  
+    #experiencias {
+  
+      text-align: center;
+      background-color:  #302F3D;
+      color: #CB92B1;
+      border-radius: 20px;
+      
+  
+  
+      width: 348px;
+      height: 349px;
+      left: 40px;
+      top: 978px;
+      
+    }
+  
+    #educacao {
+      text-align: center;
+      background-color:  #302F3D;
+      color: #CB92B1;
+      border-radius: 20px;
+     
+  
+      
+      width: 348px;
+      height: 352px;
+      left: 40px;
+      top: 1357px;
+    }
+  */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  footer{
+    border: 1px dashed rgb(8, 238, 177);
+    background-color: rgb(62, 63, 60);
+    color: cornsilk;
+  
+    margin: 5px;
+    height: 8rem;
+    width: 100%;
+  
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  
+  
+  }
+  
+  
+  
+  
+  
+  footer section{
+    border: 1px dashed rgb(58, 8, 238);
+   
+  
+   
+  
+  }
